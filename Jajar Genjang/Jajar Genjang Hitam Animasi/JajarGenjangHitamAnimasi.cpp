@@ -74,7 +74,7 @@ void timer(int) {
 			a = 1;
 }
 
-int main(int argc, char** argv)
+int main(int argc, char** argv) // fungsi utama
 {
 	glutInit(&argc, argv); // inisialisasi Glut
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB); // Double Buffer | Warna RGB
